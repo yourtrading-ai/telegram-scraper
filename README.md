@@ -6,8 +6,13 @@ Telegram Group Scraper
 python -m pip -r requirements.txt
 ```
 
-# .env file structure
+# Telegram config
+Go to the following URL and configure an app
+```url
+https://my.telegram.org/ > API development tools
+```
 
+# .env file structure 
 ```dosini
 # .env.example, committed to repo
 TELEGRAM_API_ID = <your api id>
